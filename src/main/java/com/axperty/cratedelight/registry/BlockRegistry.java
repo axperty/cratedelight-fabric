@@ -26,7 +26,7 @@ public class BlockRegistry {
 
         // Glowberry Crate Registry
         BlockList.GLOWBERRY_CRATE = block("glowberry_crate",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 7)));
 
         // Egg Crate Registry
         BlockList.EGG_CRATE = block("egg_crate",
@@ -49,10 +49,6 @@ public class BlockRegistry {
     }
     private static FabricBlockSettings blockSettings(float hardness, float resistance, BlockSoundGroup sound) {
         return FabricBlockSettings.create().strength(hardness, resistance).sounds(sound);
-    }
-
-    private static FabricBlockSettings cropSettings() {
-        return FabricBlockSettings.copyOf(Blocks.WHEAT).sounds(BlockSoundGroup.CROP).breakInstantly().ticksRandomly().noCollision().nonOpaque();
     }
 
     private static Block block(String name, Block block) {
