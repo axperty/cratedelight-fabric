@@ -15,6 +15,12 @@ public class BlockList {
     // Egg Crate
     public static Block EGG_CRATE;
 
+    // Salmon Crate
+    public static Block SALMON_CRATE;
+
+    // Cod Crate
+    public static Block COD_CRATE;
+
     // Cocoa Beans Bag
     public static Block COCOABEANS_BAG;
 

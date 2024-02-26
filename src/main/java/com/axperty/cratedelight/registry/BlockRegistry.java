@@ -32,6 +32,14 @@ public class BlockRegistry {
         BlockList.EGG_CRATE = block("egg_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
+        // Salmon Crate Registry
+        BlockList.SALMON_CRATE = block("salmon_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Cod Crate Registry
+        BlockList.COD_CRATE = block("cod_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
         // Cocoa Beans Bag Registry
         BlockList.COCOABEANS_BAG = block("cocoabeans_bag",
                 new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
