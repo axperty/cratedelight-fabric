@@ -40,6 +40,10 @@ public class BlockRegistry {
         BlockList.COD_CRATE = block("cod_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
+        // Golden Apple Crate Registry
+        BlockList.GOLDEN_APPLE_CRATE = block("golden_apple_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
         // Cocoa Beans Bag Registry
         BlockList.COCOABEANS_BAG = block("cocoabeans_bag",
                 new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));

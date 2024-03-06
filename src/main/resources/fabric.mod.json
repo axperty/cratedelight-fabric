@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "name": "Crate Delight",
   "description": "An addon mod for Farmer's Delight that adds more crates to the base mod.",
   "authors": [
@@ -16,12 +16,6 @@
   "entrypoints": {
     "main": [
       "com.axperty.cratedelight.CrateDelight"
-    ],
-    "client": [
-      "com.axperty.cratedelight.CrateDelightClient"
-    ],
-    "fabric-datagen": [
-      "com.axperty.cratedelight.CrateDelightDataGen"
     ]
   },
 

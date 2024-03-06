@@ -18,8 +18,11 @@ public class BlockList {
     // Salmon Crate
     public static Block SALMON_CRATE;
 
-    // Cod Crate
+    // Golden Apple Crate
     public static Block COD_CRATE;
+
+    // Cod Crate
+    public static Block GOLDEN_APPLE_CRATE;
 
     // Cocoa Beans Bag
     public static Block COCOABEANS_BAG;
