@@ -52,6 +52,10 @@ public class BlockRegistry {
         BlockList.SUGAR_BAG = block("sugar_bag",
                 new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
 
+        // Gunpowder Bag Registry
+        BlockList.GUNPOWDER_BAG = block("gunpowder_bag",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
         // Salt Bag Registry (for Expanded Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             BlockList.SALT_BAG = block("salt_bag",

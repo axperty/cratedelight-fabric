@@ -18,10 +18,10 @@ public class BlockList {
     // Salmon Crate
     public static Block SALMON_CRATE;
 
-    // Golden Apple Crate
+    // Cod Crate
     public static Block COD_CRATE;
 
-    // Cod Crate
+    // Golden Apple Crate
     public static Block GOLDEN_APPLE_CRATE;
 
     // Cocoa Beans Bag
@@ -29,6 +29,9 @@ public class BlockList {
 
     // Sugar Bag
     public static Block SUGAR_BAG;
+
+    // Gunpowder Bag
+    public static Block GUNPOWDER_BAG;
 
     // Salt Bag (for Expanded Delight)
     public static Block SALT_BAG;
