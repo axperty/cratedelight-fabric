@@ -32,4 +32,7 @@ public class BlockList {
 
     // Salt Bag (for Expanded Delight)
     public static Block SALT_BAG;
+
+    // Cinnamon Bag (for Expanded Delight)
+    public static Block GROUND_CINNAMON_BAG;
 }

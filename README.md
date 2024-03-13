@@ -9,14 +9,16 @@ ___
 - Apple Crate
 - Berry Crate
 - Egg Crate
-- Glowberry Crate
+- Glow Berry Crate
+- Golden Apple Crate
 - Cocoa Beans Bag
 - Sugar Bag
 - Salt Bag (available for Expanded Delight)
+- Ground Cinnamon Bag (available for Expanded Delight)
 
 🛠️ **Compatibility:**
 
-- **Expanded Delight:** Now you can create salt bags.
+- **Expanded Delight:** Now you can create salt and cinnamon bags.
 
 ___
 **Additional Information:**

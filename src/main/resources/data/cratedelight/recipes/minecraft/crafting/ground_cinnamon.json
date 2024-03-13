@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:ground_cinnamon_bag"
+    }
+  ],
+  "result": {
+    "item": "expandeddelight:ground_cinnamon",
+    "count": 9
+  }
+}

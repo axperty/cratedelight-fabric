@@ -1,12 +1,13 @@
 {
-  "block.cratedelight.apple_crate": "Caisse de pommes",
-  "block.cratedelight.berry_crate": "Caisse de baies",
-  "block.cratedelight.glowberry_crate": "Caisse de baies luminescentes",
-  "block.cratedelight.egg_crate": "Boîte à œufs",
+  "block.cratedelight.apple_crate": "Caisse de Pommes",
+  "block.cratedelight.berry_crate": "Caisse de Baies",
+  "block.cratedelight.glowberry_crate": "Caisse de Baies Lumineuses",
+  "block.cratedelight.egg_crate": "Caisse à Œufs",
   "block.cratedelight.salmon_crate": "Caisse de saumon cru",
   "block.cratedelight.cod_crate": "Caisse de morue crue",
-  "block.cratedelight.cocoabeans_bag": "Sac de fèves de cacao",
-  "block.cratedelight.sugar_bag": "Sac de sucre",
-  "block.cratedelight.salt_bag": "Sac de sel",
+  "block.cratedelight.cocoabeans_bag": "Sac de Fèves de Cacao",
+  "block.cratedelight.sugar_bag": "Sac de Sucre",
+  "block.cratedelight.salt_bag": "Sac de Sel",
+  "block.cratedelight.ground_cinnamon_bag": "Sac de Cannelle Moulue",
   "block.cratedelight.golden_apple_crate": "Caisse de pommes d'or"
 }

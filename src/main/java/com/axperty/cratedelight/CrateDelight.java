@@ -26,8 +26,6 @@ public class CrateDelight implements ModInitializer {
                 .displayName(Text.translatable("Crate Delight"))
                 .icon(() -> new ItemStack(BlockList.BERRY_CRATE))
                 .build());
-
         BlockRegistry.registerBlocks();
-
     }
 }

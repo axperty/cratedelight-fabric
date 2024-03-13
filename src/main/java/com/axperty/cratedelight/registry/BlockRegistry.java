@@ -58,6 +58,12 @@ public class BlockRegistry {
                     new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
         }
 
+        // Cinnamon Bag Registry (for Expanded Delight)
+        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
+            BlockList.GROUND_CINNAMON_BAG = block("ground_cinnamon_bag",
+                    new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
+        }
+
     }
     private static FabricBlockSettings blockSettings(float hardness, float resistance, BlockSoundGroup sound) {
         return FabricBlockSettings.create().strength(hardness, resistance).sounds(sound);
