@@ -26,11 +26,17 @@ public class BlockRegistry {
 
         // Glowberry Crate Registry
         BlockList.GLOWBERRY_CRATE = block("glowberry_crate",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 8)));
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 10)));
 
         // Egg Crate Registry
         BlockList.EGG_CRATE = block("egg_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Duck Egg Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("naturalist")) {
+            BlockList.DUCK_EGG_CRATE = block("duck_egg_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
 
         // Salmon Crate Registry
         BlockList.SALMON_CRATE = block("salmon_crate",
@@ -39,6 +45,18 @@ public class BlockRegistry {
         // Cod Crate Registry
         BlockList.COD_CRATE = block("cod_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Cat Fish Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("naturalist")) {
+            BlockList.CATFISH_CRATE = block("catfish_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
+
+        // End Fish Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("betterend")) {
+            BlockList.END_FISH_CRATE = block("end_fish_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
 
         // Golden Apple Crate Registry
         BlockList.GOLDEN_APPLE_CRATE = block("golden_apple_crate",
@@ -57,13 +75,11 @@ public class BlockRegistry {
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Salt Bag Registry (for Expanded Delight)
+        // Cinnamon Bag Registry (for Expanded Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             BlockList.SALT_BAG = block("salt_bag",
                     new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
-        }
 
-        // Cinnamon Bag Registry (for Expanded Delight)
-        if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             BlockList.GROUND_CINNAMON_BAG = block("ground_cinnamon_bag",
                     new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
         }

@@ -15,11 +15,20 @@ public class BlockList {
     // Egg Crate
     public static Block EGG_CRATE;
 
+    // Duck Egg Crate (for Naturalist)
+    public static Block DUCK_EGG_CRATE;
+
     // Salmon Crate
     public static Block SALMON_CRATE;
 
     // Cod Crate
     public static Block COD_CRATE;
+
+    // Cat Fish Crate
+    public static Block CATFISH_CRATE;
+
+    // End Fish Crate
+    public static Block END_FISH_CRATE;
 
     // Golden Apple Crate
     public static Block GOLDEN_APPLE_CRATE;

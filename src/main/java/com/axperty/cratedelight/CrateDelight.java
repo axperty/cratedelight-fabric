@@ -24,7 +24,7 @@ public class CrateDelight implements ModInitializer {
     public void onInitialize() {
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("Crate Delight"))
-                .icon(() -> new ItemStack(BlockList.BERRY_CRATE))
+                .icon(() -> new ItemStack(BlockList.SALMON_CRATE))
                 .build());
         BlockRegistry.registerBlocks();
     }

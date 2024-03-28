@@ -12,5 +12,8 @@
   "block.cratedelight.ground_cinnamon_bag": "Bag of Ground Cinnamon",
   "block.cratedelight.golden_apple_crate": "Golden Apple Crate",
   "block.cratedelight.wheat_flour_bag": "Wheat Flour Bag",
-  "block.cratedelight.ender_dust": "Ender Dust Bag"
+  "block.cratedelight.ender_dust_bag": "Ender Dust Bag",
+  "block.cratedelight.end_fish_crate": "Raw End Fish Crate",
+  "block.cratedelight.duck_egg_crate": "Duck Egg Crate",
+  "block.cratedelight.catfish_crate": "Raw Catfish Crate"
 }

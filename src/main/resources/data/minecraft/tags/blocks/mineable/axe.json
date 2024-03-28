@@ -5,8 +5,11 @@
     "cratedelight:berry_crate",
     "cratedelight:glowberry_crate",
     "cratedelight:egg_crate",
+    "cratedelight:duck_egg_crate",
     "cratedelight:salmon_crate",
     "cratedelight:cod_crate",
+    "cratedelight:end_fish_crate",
+    "cratedelight:catfish_crate",
     "cratedelight:golden_apple_crate"
   ]
 }
