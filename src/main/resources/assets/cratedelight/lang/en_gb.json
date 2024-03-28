@@ -10,5 +10,7 @@
   "block.cratedelight.salt_bag": "Bag of Salt",
   "block.cratedelight.gunpowder_bag": "Bag of Gunpowder",
   "block.cratedelight.ground_cinnamon_bag": "Bag of Ground Cinnamon",
-  "block.cratedelight.golden_apple_crate": "Golden Apple Crate"
+  "block.cratedelight.golden_apple_crate": "Golden Apple Crate",
+  "block.cratedelight.wheat_flour_bag": "Wheat Flour Bag",
+  "block.cratedelight.ender_dust": "Ender Dust Bag"
 }

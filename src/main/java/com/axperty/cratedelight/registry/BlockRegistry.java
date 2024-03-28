@@ -26,7 +26,7 @@ public class BlockRegistry {
 
         // Glowberry Crate Registry
         BlockList.GLOWBERRY_CRATE = block("glowberry_crate",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 7)));
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 8)));
 
         // Egg Crate Registry
         BlockList.EGG_CRATE = block("egg_crate",
@@ -59,13 +59,25 @@ public class BlockRegistry {
         // Salt Bag Registry (for Expanded Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             BlockList.SALT_BAG = block("salt_bag",
-                    new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
+                    new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
         }
 
         // Cinnamon Bag Registry (for Expanded Delight)
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {
             BlockList.GROUND_CINNAMON_BAG = block("ground_cinnamon_bag",
-                    new Block(blockSettings(.8f, .8f, BlockSoundGroup.WOOL)));
+                    new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
+        }
+
+        // Wheat Flour Bag Registry (for Crate)
+        if (FabricLoader.getInstance().isModLoaded("create")) {
+            BlockList.WHEAT_FLOUR_BAG = block("wheat_flour_bag",
+                    new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
+        }
+
+        // End Dust Bag Registry (for BetterEnd)
+        if (FabricLoader.getInstance().isModLoaded("betterend")) {
+            BlockList.ENDER_DUST_BAG = block("ender_dust_bag",
+                    new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
         }
 
     }

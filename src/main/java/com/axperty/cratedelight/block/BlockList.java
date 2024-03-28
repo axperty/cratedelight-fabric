@@ -38,4 +38,10 @@ public class BlockList {
 
     // Cinnamon Bag (for Expanded Delight)
     public static Block GROUND_CINNAMON_BAG;
+
+    // Wheat Flour Bag (for Crate)
+    public static Block WHEAT_FLOUR_BAG;
+
+    // Ender Dust Bag (for BetterEnd)
+    public static Block ENDER_DUST_BAG;
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cratedelight:ender_dust_bag"
+    }
+  ],
+  "result": {
+    "item": "betterend:ender_dust",
+    "count": 9
+  }
+}
