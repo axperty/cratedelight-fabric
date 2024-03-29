@@ -18,6 +18,9 @@ public class BlockList {
     // Duck Egg Crate (for Naturalist)
     public static Block DUCK_EGG_CRATE;
 
+    // Peanut Crate (for Expanded Delight)
+    public static Block PEANUT_CRATE;
+
     // Salmon Crate
     public static Block SALMON_CRATE;
 
@@ -50,6 +53,12 @@ public class BlockList {
 
     // Wheat Flour Bag (for Crate)
     public static Block WHEAT_FLOUR_BAG;
+
+    // Powdered Obsidian Bag (for Crate)
+    public static Block POWDERED_OBSIDIAN_BAG;
+
+    // Cinder Flour Bag (for Crate)
+    public static Block CINDER_FLOUR_BAG;
 
     // Ender Dust Bag (for BetterEnd)
     public static Block ENDER_DUST_BAG;
