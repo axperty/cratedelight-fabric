@@ -57,6 +57,10 @@ public class BlockRegistry {
             // Cat Fish Crate Registry
             BlockList.CATFISH_CRATE = block("catfish_crate",
                     new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            // Bass Crate Registry
+            BlockList.BASS_CRATE = block("bass_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
         }
 
         // BetterEnd Compatibility

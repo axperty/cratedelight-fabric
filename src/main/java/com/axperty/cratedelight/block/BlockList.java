@@ -27,8 +27,11 @@ public class BlockList {
     // Cod Crate
     public static Block COD_CRATE;
 
-    // Cat Fish Crate
+    // Catfish Crate
     public static Block CATFISH_CRATE;
+
+    // Bass Fish Crate
+    public static Block BASS_CRATE;
 
     // End Fish Crate
     public static Block END_FISH_CRATE;
