@@ -10,5 +10,15 @@
   "block.cratedelight.salt_bag": "Zakje Zout",
   "block.cratedelight.gunpowder_bag": "Zakje Buskruit",
   "block.cratedelight.ground_cinnamon_bag": "Zakje Gemalen Kaneel",
-  "block.cratedelight.golden_apple_crate": "Gouden Appel Kist"
+  "block.cratedelight.golden_apple_crate": "Gouden Appel Kist",
+
+  "block.cratedelight.end_fish_crate": "Rauwe Endviskrat",
+  "block.cratedelight.duck_egg_crate": "Eenden Eierenkrat",
+  "block.cratedelight.catfish_crate": "Rauwe Katviskrat",
+  "block.cratedelight.bass_crate": "Rauwe Baarskrat",
+  "block.cratedelight.peanut_crate": "Pinda's Krat",
+  "block.cratedelight.wheat_flour_bag": "Tarwemeelzak",
+  "block.cratedelight.ender_dust_bag": "Endstofzak",
+  "block.cratedelight.powdered_obsidian_bag": "Poederobsidiaanzak",
+  "block.cratedelight.cinder_flour_bag": "Asmeelzak"
 }

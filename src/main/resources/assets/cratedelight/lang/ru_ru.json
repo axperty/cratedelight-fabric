@@ -10,5 +10,15 @@
   "block.cratedelight.salt_bag": "Мешок c соли",
   "block.cratedelight.gunpowder_bag": "Мешок пороха",
   "block.cratedelight.ground_cinnamon_bag": "Мешок молотого корицы",
-  "block.cratedelight.golden_apple_crate": "Ящик золотого яблока"
+  "block.cratedelight.golden_apple_crate": "Ящик золотого яблока",
+
+  "block.cratedelight.end_fish_crate": "Сырая крышка для конечной рыбы",
+  "block.cratedelight.duck_egg_crate": "Коробка с утинными яйцами",
+  "block.cratedelight.catfish_crate": "Сырая крышка для сома",
+  "block.cratedelight.bass_crate": "Сырая крышка для окуня",
+  "block.cratedelight.peanut_crate": "Коробка для арахиса",
+  "block.cratedelight.wheat_flour_bag": "Мешок с пшеничной мукой",
+  "block.cratedelight.ender_dust_bag": "Мешок с эндеровой пылью",
+  "block.cratedelight.powdered_obsidian_bag": "Мешок с порошком обсидиана",
+  "block.cratedelight.cinder_flour_bag": "Мешок с золоотсевом"
 }

@@ -10,5 +10,15 @@
   "block.cratedelight.salt_bag": "소금 가방",
   "block.cratedelight.gunpowder_bag": "화약 가방",
   "block.cratedelight.ground_cinnamon_bag": "마차의 계피 가방",
-  "block.cratedelight.golden_apple_crate": "골든 애플 상자"
+  "block.cratedelight.golden_apple_crate": "골든 애플 상자",
+
+  "block.cratedelight.end_fish_crate": "날것의 엔드 피시 상자",
+  "block.cratedelight.duck_egg_crate": "오리 알 상자",
+  "block.cratedelight.catfish_crate": "날것의 메기 상자",
+  "block.cratedelight.bass_crate": "날것의 베이스 상자",
+  "block.cratedelight.peanut_crate": "땅콩 상자",
+  "block.cratedelight.wheat_flour_bag": "밀가루 가방",
+  "block.cratedelight.ender_dust_bag": "엔더 먼지 가방",
+  "block.cratedelight.powdered_obsidian_bag": "가루 상옥 가방",
+  "block.cratedelight.cinder_flour_bag": "잿물 가루 가방"
 }

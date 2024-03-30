@@ -10,5 +10,15 @@
   "block.cratedelight.salt_bag": "Påse med Salt",
   "block.cratedelight.gunpowder_bag": "Påse med Krut",
   "block.cratedelight.ground_cinnamon_bag": "Påse med Malt Kanel",
-  "block.cratedelight.golden_apple_crate": "Gyllene Äppelkrat"
+  "block.cratedelight.golden_apple_crate": "Gyllene Äppelkrat",
+
+  "block.cratedelight.end_fish_crate": "Rå Endfisklåda",
+  "block.cratedelight.duck_egg_crate": "Ankäggslåda",
+  "block.cratedelight.catfish_crate": "Rå Kattfisklåda",
+  "block.cratedelight.bass_crate": "Rå Abborrlåda",
+  "block.cratedelight.peanut_crate": "Jordnötslåda",
+  "block.cratedelight.wheat_flour_bag": "Vetemjölsäck",
+  "block.cratedelight.ender_dust_bag": "Enderdammsäck",
+  "block.cratedelight.powdered_obsidian_bag": "Pulveriserad Obsidiansäck",
+  "block.cratedelight.cinder_flour_bag": "Askmjölsäck"
 }
