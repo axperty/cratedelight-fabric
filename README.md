@@ -1,27 +1,44 @@
-![Crate Delight Fabric Logo](https://cdn.modrinth.com/data/9rlXSyLg/images/437a3b050dccfc1a75399b495dcaced591f27a92.png)
-___
-**Upgrade your Farmer's Delight experience!** Forget chests and say hello to more food storage. Craft beautiful crates for your apples, berries, glowberries, and eggs.
+<img src="https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png" alt="Crate Delight Fabric Logo">
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/crate-delight) | [Download on Modrinth](https://modrinth.com/mod/crate-delight-fabric)
+<hr>
 
-🍎 **Make More Crates:**
+<p><b>Forget chests and say hello to more food storage!</b> Craft beautiful crates and bags for your apples, berries, glow berries, eggs, cocoa beans, sugar, raw salmon, and raw cod.</p>
 
-- Apple Crate
-- Berry Crate
-- Egg Crate
-- Glow Berry Crate
-- Golden Apple Crate
-- Cocoa Beans Bag
-- Sugar Bag
-- Salt Bag (available for Expanded Delight)
-- Ground Cinnamon Bag (available for Expanded Delight)
+<p><a href="https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge"><b>Download on CurseForge</b></a> | <a href="https://modrinth.com/mod/crate-delight"><b>Download on Modrinth</b></a></p>
 
-🛠️ **Compatibility:**
+<p>🍎 <strong>Make More Crates and Bags:</strong></p>
 
-- **Expanded Delight:** Now you can create salt and cinnamon bags.
+<ul>
+  <li>Apple Crate</li>
+  <li>Berry Crate</li>
+  <li>Egg Crate</li>
+  <li>Glow Berry Crate</li>
+  <li>Raw Salmon Crate</li>
+  <li>Raw Cod Crate</li>
+  <li>Golden Apple Crate</li>
+  <li>Cocoa Beans Bag</li>
+  <li>Sugar Bag</li>
+</ul>
 
-___
-**Additional Information:**
+<p>🔄️ <b>Compatible With Many Mods:</b></p>
 
-- This project is based on [Expanded Delight](https://modrinth.com/mod/expanded-delight) by ianm1647.
-- Feel free to use this mod in your modpacks, please give credits.
+<ul>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Cinnamon Bags for <strong>Expanded Delight</strong></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Peanut Crates for <b>Expanded Delight</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Salt Bags for <b>Expanded Delight</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Ender Dust Bag for <b>BetterEnd</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> End Fish Crate for <b>BetterEnd</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Cinder Flour Bag for <b>Create</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Powdered Obsidian Bag for <b>Create</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Wheat Flour Bag for <b>Create</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Duck Egg Crate for <b>Naturalist</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Raw Bass Crate for <b>Naturalist</b></li>
+  <li><span style="color:#AF8F55"><b>[New]</b></span> Raw Catfish Crate for <b>Naturalist</b></li>
+</ul>
+
+<hr>
+
+<p>✨ <b>Support this Project:</b></p>
+<ul>
+    <li>Donators get <b>exclusive access</b> to mod updates before they officially release on <a href="https://discord.gg/z2E7Q78v8X">Discord.</a></li>
+</ul>
