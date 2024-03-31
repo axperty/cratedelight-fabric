@@ -12,6 +12,9 @@ public class BlockList {
     // Glow Berry Crate
     public static Block GLOWBERRY_CRATE;
 
+    // Blueberry Crate (for Nutritious Feast)
+    public static Block BLUEBERRY_CRATE;
+
     // Egg Crate
     public static Block EGG_CRATE;
 
@@ -27,13 +30,13 @@ public class BlockList {
     // Cod Crate
     public static Block COD_CRATE;
 
-    // Catfish Crate
+    // Catfish Crate (for Naturalist)
     public static Block CATFISH_CRATE;
 
-    // Bass Fish Crate
+    // Bass Fish Crate (for Naturalist)
     public static Block BASS_CRATE;
 
-    // End Fish Crate
+    // End Fish Crate (for BetterEnd)
     public static Block END_FISH_CRATE;
 
     // Golden Apple Crate

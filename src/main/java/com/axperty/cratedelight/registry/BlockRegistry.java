@@ -24,6 +24,12 @@ public class BlockRegistry {
         BlockList.BERRY_CRATE = block("berry_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
+        // Blueberry Crate Registry
+        if (FabricLoader.getInstance().isModLoaded("nutritious_feast")) {
+            BlockList.BLUEBERRY_CRATE = block("blueberry_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
+
         // Glow Berry Crate Registry
         BlockList.GLOWBERRY_CRATE = block("glowberry_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD).luminance((state) -> 13)));
