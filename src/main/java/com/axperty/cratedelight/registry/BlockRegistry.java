@@ -25,7 +25,7 @@ public class BlockRegistry {
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Blueberry Crate Registry
-        if (FabricLoader.getInstance().isModLoaded("nutritious_feast")) {
+        if (FabricLoader.getInstance().isModLoaded("nutritious-feast")) {
             BlockList.BLUEBERRY_CRATE = block("blueberry_crate",
                     new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
         }
