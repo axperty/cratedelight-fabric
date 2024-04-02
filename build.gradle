@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.5-SNAPSHOT'
+	id 'fabric-loom' version '1.3-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -21,7 +21,6 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "maven.modrinth:farmers-delight-refabricated:${project.delight_refrabricated_version}"
 
 	modImplementation "maven.modrinth:farmers-delight-fabric:${project.delight_version}"
 }
@@ -80,6 +79,57 @@ sourceSets {
 			srcDirs += [
 					'src/main/generated'
 			]
+		}
+	}
+}
+
+var env = System.getenv()
+var modLoader = name
+
+var changelogFile = rootProject.file("changelog.md")
+var changelogText = changelogFile.exists() ? changelogFile.text : ""
+
+if (env.MODRINTH_TOKEN) {
+	modrinth {
+		projectId = modrinth_project_id
+		versionName = "Crate Delight ${mod_version.split("-")[1]} - ${minecraft_version}"
+		uploadFile = tasks.remapJar
+		gameVersions = [minecraft_version]
+		loaders = ["fabric"]
+		changelog = changelogText
+		versionNumber = mod_version
+		versionType = "release"
+
+		dependencies {
+			required.project "fabric-api"
+			required.project "farmers-delight-fabric"
+			optional.project "more-delight"
+			optional.project "storage-delight"
+		}
+	}
+}
+
+if (env.CURSEFORGE_TOKEN) {
+	curseforge {
+		apiKey = env.CURSEFORGE_TOKEN
+		project {
+			id = project_id
+			changelog = changelogText
+			changelogType = 'markdown'
+			releaseType = 'release'
+			addGameVersion minecraft_version
+			addGameVersion "Fabric"
+
+			mainArtifact(tasks.remapJar) {
+				displayName = "Crate Delight ${mod_version.split("-")[1]} - ${minecraft_version}"
+			}
+
+			relations {
+				requiredDependency "fabric-api"
+				requiredDependency "farmers-delight-fabric"
+				optionalDependency "more-delight-fabric"
+				optionalDependency "storage-delight-fabric"
+			}
 		}
 	}
 }

@@ -90,7 +90,7 @@ public class BlockRegistry {
 
         // Gunpowder Bag Registry
         BlockList.GUNPOWDER_BAG = block("gunpowder_bag",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+                new Block(blockSettings(.7f, .8f, BlockSoundGroup.WOOL)));
 
         // Expanded Delight Compatibility:
         if (FabricLoader.getInstance().isModLoaded("expandeddelight")) {

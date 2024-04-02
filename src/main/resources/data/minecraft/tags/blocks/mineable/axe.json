@@ -1,18 +1,57 @@
 {
   "replace": false,
   "values": [
-    "cratedelight:apple_crate",
-    "cratedelight:berry_crate",
-    "cratedelight:blueberry_crate",
-    "cratedelight:glowberry_crate",
-    "cratedelight:egg_crate",
-    "cratedelight:duck_egg_crate",
-    "cratedelight:peanut_crate",
-    "cratedelight:salmon_crate",
-    "cratedelight:cod_crate",
-    "cratedelight:end_fish_crate",
-    "cratedelight:catfish_crate",
-    "cratedelight:bass_crate",
-    "cratedelight:golden_apple_crate"
+    {
+      "id": "cratedelight:apple_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:berry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:blueberry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:glowberry_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:egg_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:duck_egg_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:peanut_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:salmon_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:cod_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:end_fish_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:catfish_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:bass_crate",
+      "required": false
+    },
+    {
+      "id": "cratedelight:golden_apple_crate",
+      "required": false
+    }
   ]
 }
