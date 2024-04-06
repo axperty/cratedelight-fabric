@@ -13,6 +13,15 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+
+/**
+Summary: Registers various blocks, including crates and bags with different 
+properties and compatibilities. Utilizes Fabric API for block and item registration, 
+along with conditional checks for mod compatibility. The `BlockRegistry` class 
+centralizes block registration and includes methods for defining block settings and 
+registering block items.
+**/
+
 public class BlockRegistry {
 
     public static void registerBlocks() {
