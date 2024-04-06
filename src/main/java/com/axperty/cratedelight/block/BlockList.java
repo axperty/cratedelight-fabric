@@ -2,6 +2,11 @@ package com.axperty.cratedelight.block;
 
 import net.minecraft.block.Block;
 
+/**
+Summary: This class organizes these block types for easy management 
+within the mod's codebase.
+**/
+
 public class BlockList {
     // Apple Crate
     public static Block APPLE_CRATE;
