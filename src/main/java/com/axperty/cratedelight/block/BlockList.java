@@ -2,11 +2,6 @@ package com.axperty.cratedelight.block;
 
 import net.minecraft.block.Block;
 
-/**
-Summary: This class organizes these block types for easy management 
-within the mod's codebase.
-**/
-
 public class BlockList {
     // Apple Crate
     public static Block APPLE_CRATE;
@@ -34,6 +29,12 @@ public class BlockList {
 
     // Cod Crate
     public static Block COD_CRATE;
+
+    // Red Mushroom Crate
+    public static Block RED_MUSHROOM_CRATE;
+
+    // Brown Mushroom Crate
+    public static Block BROWN_MUSHROOM_CRATE;
 
     // Catfish Crate (for Naturalist)
     public static Block CATFISH_CRATE;

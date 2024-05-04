@@ -12,5 +12,13 @@
   },
   "result": {
     "item": "cratedelight:wheat_flour_bag"
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ]
 }

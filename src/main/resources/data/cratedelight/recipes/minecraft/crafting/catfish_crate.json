@@ -12,5 +12,11 @@
   },
   "result": {
     "item": "cratedelight:catfish_crate"
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": ["naturalist"]
+    }
+  ]
 }

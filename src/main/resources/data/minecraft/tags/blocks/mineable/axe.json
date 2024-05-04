@@ -52,6 +52,14 @@
     {
       "id": "cratedelight:golden_apple_crate",
       "required": false
+    },
+    {
+      "id": "cratedelight:red_mushroom_crate",
+      "required": false
+    },{
+      "id": "cratedelight:brown_mushroom_crate",
+      "required": false
     }
+
   ]
 }

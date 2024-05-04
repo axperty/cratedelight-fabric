@@ -8,5 +8,11 @@
   "result": {
     "item": "nutritious-feast:blueberries",
     "count": 9
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": ["nutritious-feast"]
+    }
+  ]
 }

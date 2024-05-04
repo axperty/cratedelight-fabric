@@ -14,14 +14,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-/**
-Summary: Registers various blocks, including crates and bags with different 
-properties and compatibilities. Utilizes Fabric API for block and item registration, 
-along with conditional checks for mod compatibility. The `BlockRegistry` class 
-centralizes block registration and includes methods for defining block settings and 
-registering block items.
-**/
-
 public class BlockRegistry {
 
     public static void registerBlocks() {
@@ -65,6 +57,14 @@ public class BlockRegistry {
 
         // Cod Crate Registry
         BlockList.COD_CRATE = block("cod_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Red Mushroom Crate Registry
+        BlockList.RED_MUSHROOM_CRATE = block("red_mushroom_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Brown Mushroom Crate Registry
+        BlockList.BROWN_MUSHROOM_CRATE = block("brown_mushroom_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Naturalist Compatibility
