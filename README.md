@@ -42,4 +42,4 @@ It also adds crates and bags for the following mods:
 - Powdered Obsidian Bag (Create)
 - Cinder Flour Bag (Create)
 - End Fish Crate (BetterEnd)
-- End Dust Bag (BetterEnd Mod)
+- End Dust Bag (BetterEnd)

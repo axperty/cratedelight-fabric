@@ -17,9 +17,10 @@
   <li><b>Why:</b> This change allows everyone to enjoy all the features that this mod brings to Minecraft, and making it easier to update to newer versions of the game. </li>
 </ul>
 
-<h3>🛠️ Known Bugs:</h3>
+<h3>🛠️ Fixed Bugs:</h3>
 <ul>
-  <li>If mods that are compatible with Crate Delight aren't loaded when creating a new world, they will fail to parse their loot tables, causing the console to display many errors, but the game will work normally <a href="https://github.com/axperty/cratedelight-forge/issues/3">#3.</a></li>
+  <li>Fixed a bug where Crate Delight was loading some loot tables for compatible mods that weren't loaded, causing the console to print many errors <a href="https://github.com/axperty/cratedelight-forge/issues/3">#3.</a></li>
+  <li>Fixed a bug where breaking the blueberry crate for Nutritious Feast dropped a berry crate.</li>
 </ul>
 <hr/>
 

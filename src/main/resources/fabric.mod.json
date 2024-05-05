@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "1.4.6-1.20-fabric",
+  "version": "2024.05.04-1.20-fabric",
   "name": "Crate Delight",
-  "description": "An addon mod for Minecraft and Farmer's Delight that adds more crates to the base mod.",
+  "description": "An addon mod for Farmer's Delight that adds more crates to the base mod.",
   "authors": [
     "Axperty"
   ],

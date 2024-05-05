@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "nutritious-feast"
+      ]
+    }
+  ],
   "type": "minecraft:block",
   "pools": [
     {
@@ -7,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cratedelight:berry_crate"
+          "name": "cratedelight:blueberry_crate"
         }
       ],
       "conditions": [

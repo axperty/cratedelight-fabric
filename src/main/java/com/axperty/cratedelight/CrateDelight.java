@@ -22,7 +22,7 @@ public class CrateDelight implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        System.out.println("[Crate Delight Fabric] Registering blocks...");
+        LOGGER.debug("[Crate Delight]: Registering blocks...");
 
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("Crate Delight"))
@@ -31,6 +31,6 @@ public class CrateDelight implements ModInitializer {
 
         BlockRegistry.registerBlocks();
 
-        System.out.println("[Crate Delight Fabric] Blocks registered successfully!");
+        LOGGER.debug("[Crate Delight]: Blocks registered successfully!");
     }
 }

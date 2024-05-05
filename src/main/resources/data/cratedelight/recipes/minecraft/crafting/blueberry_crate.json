@@ -1,4 +1,12 @@
 {
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "nutritious-feast"
+      ]
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
@@ -12,11 +20,5 @@
   },
   "result": {
     "item": "cratedelight:blueberry_crate"
-  },
-  "fabric:load_conditions": [
-    {
-      "condition": "fabric:any_mod_loaded",
-      "values": ["nutritious-feast"]
-    }
-  ]
+  }
 }
