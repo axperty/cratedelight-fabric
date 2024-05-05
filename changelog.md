@@ -8,7 +8,7 @@
 <ul>
   <li>Added Red Mushroom Crate.</li>
   <li>Added Brown Mushroom Crate.</li>
-  <li>Support for Minecraft versions 1.20.2, 1.20.3, and 1.20.4.</li>
+  <li>Support for Minecraft versions 1.20, 1.20.1, 1.20.2, 1.20.3, and 1.20.4.</li>
 </ul>
 
 <h3>🧩 Compatibility:</h3>
