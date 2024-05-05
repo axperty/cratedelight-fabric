@@ -30,12 +30,6 @@ public class BlockList {
     // Cod Crate
     public static Block COD_CRATE;
 
-    // Red Mushroom Crate
-    public static Block RED_MUSHROOM_CRATE;
-
-    // Brown Mushroom Crate
-    public static Block BROWN_MUSHROOM_CRATE;
-
     // Catfish Crate (for Naturalist)
     public static Block CATFISH_CRATE;
 
@@ -44,6 +38,12 @@ public class BlockList {
 
     // End Fish Crate (for BetterEnd)
     public static Block END_FISH_CRATE;
+
+    // Red Mushroom Crate
+    public static Block RED_MUSHROOM_CRATE;
+
+    // Brown Mushroom Crate
+    public static Block BROWN_MUSHROOM_CRATE;
 
     // Golden Apple Crate
     public static Block GOLDEN_APPLE_CRATE;

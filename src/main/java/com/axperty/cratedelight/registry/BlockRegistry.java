@@ -59,14 +59,6 @@ public class BlockRegistry {
         BlockList.COD_CRATE = block("cod_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
-        // Red Mushroom Crate Registry
-        BlockList.RED_MUSHROOM_CRATE = block("red_mushroom_crate",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
-
-        // Brown Mushroom Crate Registry
-        BlockList.BROWN_MUSHROOM_CRATE = block("brown_mushroom_crate",
-                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
-
         // Naturalist Compatibility
         if (FabricLoader.getInstance().isModLoaded("naturalist")) {
             // Cat Fish Crate Registry
@@ -84,6 +76,14 @@ public class BlockRegistry {
             BlockList.END_FISH_CRATE = block("end_fish_crate",
                     new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
         }
+
+        // Red Mushroom Crate Registry
+        BlockList.RED_MUSHROOM_CRATE = block("red_mushroom_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Brown Mushroom Crate Registry
+        BlockList.BROWN_MUSHROOM_CRATE = block("brown_mushroom_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Golden Apple Crate Registry
         BlockList.GOLDEN_APPLE_CRATE = block("golden_apple_crate",
