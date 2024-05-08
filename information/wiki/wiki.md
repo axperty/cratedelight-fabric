@@ -1,4 +1,4 @@
-# Crate Delight: Wiki
+# Wiki
 
 ![Crate Delight](https://cdn.modrinth.com/data/9rlXSyLg/images/c741ee61d02d1d45dd85222e826e3e6dd787e837.png)
 
