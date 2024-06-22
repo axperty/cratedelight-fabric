@@ -51,6 +51,17 @@ public class BlockRegistry {
                     new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
         }
 
+        // Jagm's Kiwis Compatibility
+        if (FabricLoader.getInstance().isModLoaded("jagmkiwis")) {
+            // Kiwi Egg Crate Registry
+            BlockList.KIWI_EGG_CRATE = block("kiwi_egg_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+            // Kiwifruit Crate Registry
+            BlockList.KIWIFRUIT_CRATE = block("kiwifruit_crate",
+                    new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+        }
+
         // Salmon Crate Registry
         BlockList.SALMON_CRATE = block("salmon_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
@@ -83,6 +94,10 @@ public class BlockRegistry {
 
         // Brown Mushroom Crate Registry
         BlockList.BROWN_MUSHROOM_CRATE = block("brown_mushroom_crate",
+                new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
+
+        // Golden Carrot Crate Registry
+        BlockList.GOLDEN_CARROT_CRATE = block("golden_carrot_crate",
                 new Block(blockSettings(2.0f, 3.0f, BlockSoundGroup.WOOD)));
 
         // Golden Apple Crate Registry

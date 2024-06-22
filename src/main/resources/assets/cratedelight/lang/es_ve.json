@@ -23,5 +23,8 @@
   "block.cratedelight.cinder_flour_bag": "Bolsa de harina del Nether",
   "block.cratedelight.blueberry_crate": "Cajón de arándanos",
   "block.cratedelight.red_mushroom_crate": "Cajón de hongos rojos",
-  "block.cratedelight.brown_mushroom_crate": "Cajón de hongos marrones"
+  "block.cratedelight.brown_mushroom_crate": "Cajón de hongos marrones",
+  "block.cratedelight.golden_carrot_crate": "Cajón de zanahorias doradas",
+  "block.cratedelight.kiwi_egg_crate": "Cajón de huevos de Kiwi",
+  "block.cratedelight.kiwifruit_crate": "Cajón de fruta de Kiwi"
 }

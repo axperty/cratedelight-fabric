@@ -23,5 +23,8 @@
   "block.cratedelight.cinder_flour_bag": "シンダーフラワーの袋",
   "block.cratedelight.blueberry_crate": "ブルーベリーの木箱",
   "block.cratedelight.red_mushroom_crate": "赤いキノコの木箱",
-  "block.cratedelight.brown_mushroom_crate": "茶色いキノコの木箱"
+  "block.cratedelight.brown_mushroom_crate": "茶色いキノコの木箱",
+  "block.cratedelight.golden_carrot_crate": "金のニンジン箱",
+  "block.cratedelight.kiwi_egg_crate": "キウイの卵箱",
+  "block.cratedelight.kiwifruit_crate": "キウイフルーツの箱"
 }

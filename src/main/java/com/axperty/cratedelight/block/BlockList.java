@@ -24,6 +24,12 @@ public class BlockList {
     // Peanut Crate (for Expanded Delight)
     public static Block PEANUT_CRATE;
 
+    // Kiwi Egg Crate (for Jagm's Kiwis)
+    public static Block KIWI_EGG_CRATE;
+
+    // Kiwifruit Crate (for Jagm's Kiwis)
+    public static Block KIWIFRUIT_CRATE;
+
     // Salmon Crate
     public static Block SALMON_CRATE;
 
@@ -44,6 +50,9 @@ public class BlockList {
 
     // Brown Mushroom Crate
     public static Block BROWN_MUSHROOM_CRATE;
+
+    // Golden Apple Crate
+    public static Block GOLDEN_CARROT_CRATE;
 
     // Golden Apple Crate
     public static Block GOLDEN_APPLE_CRATE;

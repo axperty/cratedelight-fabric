@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cratedelight",
-  "version": "2024.05.05-1.20-fabric",
+  "version": "2024.06.21-1.20-fabric",
   "name": "Crate Delight",
   "description": "An addon mod for Farmer's Delight that adds more crates and bags to the base mod.",
   "authors": [
@@ -18,7 +18,6 @@
       "com.axperty.cratedelight.CrateDelight"
     ]
   },
-
   "depends": {
     "fabricloader": ">=0.14.21",
     "fabric": "*",

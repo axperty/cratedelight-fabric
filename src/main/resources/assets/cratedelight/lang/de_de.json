@@ -23,5 +23,8 @@
   "block.cratedelight.cinder_flour_bag": "Aschmehl-Tasche",
   "block.cratedelight.blueberry_crate": "Blaubeerkiste",
   "block.cratedelight.red_mushroom_crate": "Rote Pilz-Kiste",
-  "block.cratedelight.brown_mushroom_crate": "Braune Pilz-Kiste"
+  "block.cratedelight.brown_mushroom_crate": "Braune Pilz-Kiste",
+  "block.cratedelight.golden_carrot_crate": "Goldene Karottenkiste",
+  "block.cratedelight.kiwi_egg_crate": "Kiwi-Ei-Kiste",
+  "block.cratedelight.kiwifruit_crate": "Kiwi-Kiste"
 }

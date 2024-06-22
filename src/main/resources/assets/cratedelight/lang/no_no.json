@@ -23,5 +23,8 @@
   "block.cratedelight.cinder_flour_bag": "Askeblomsterpose",
   "block.cratedelight.blueberry_crate": "Blåbærkasse",
   "block.cratedelight.red_mushroom_crate": "Rød Soppkasse",
-  "block.cratedelight.brown_mushroom_crate": "Brun Soppkasse"
+  "block.cratedelight.brown_mushroom_crate": "Brun Soppkasse",
+  "block.cratedelight.golden_carrot_crate": "Gylden gulrotkasse",
+  "block.cratedelight.kiwi_egg_crate": "Kiwi-eggkasse",
+  "block.cratedelight.kiwifruit_crate": "Kiwi-fruktkasse"
 }
